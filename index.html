@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sarvesh's Chrome</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="top">
+        <span id="day">day</span>
+        <br />
+        <span id="daynum">00</span>
+        <span id="month">month</span>
+        <span id="year">0000</span>
+      </div>
+      <div class="dt"><div class="display-time"></div></div>
+    </header>
+    <div class="center">
+      <h1 id="greeting"></h1>
+    </div>
+    <div class="search">
+      <form
+        action="https://www.google.com/webhp"
+        method="get"
+        class="search-form"
+      >
+        <input type="text" id="search-ipt" name="q" value="Remove BG" /><button
+          type="submit"
+          id="search-btn"
+        >
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+      </form>
+    </div>
+    <div class="links">
+      <a href=""
+        ><div class="link yt"><i class="fa-brands fa-youtube"></i></div
+      ></a>
+      <a href="https://www.figma.com"
+        ><div class="link figma"><i class="fa-brands fa-figma"></i></div
+      ></a>
+      <a href="https://www.stackoverflow.com"
+        ><div class="link sto"><i class="fa-brands fa-stack-overflow"></i></div
+      ></a>
+      <a href="https://www.github.com"
+        ><div class="link github"><i class="fa-brands fa-github"></i></div
+      ></a>
+      <a href="https://www.discord.com"
+        ><div class="link discord"><i class="fa-brands fa-discord"></i></div
+      ></a>
+      <a href="https://www.spotify.com"
+        ><div class="link spotify"><i class="fa-brands fa-spotify"></i></div
+      ></a>
+      <a href="https://web.whatsapp.com"
+        ><div class="link whatsapp"><i class="fa-brands fa-whatsapp"></i></div
+      ></a>
+      <a href="https://dart.dev/"
+        ><div class="linkimg dart">
+          <img class="img-logo" src="icons/dart.png" /></div
+      ></a>
+      <a href="https://nodejs.org/en"
+        ><div class="link node"><i class="fa-brands fa-node"></i></div
+      ></a>
+      <a href="https://sass-lang.com/"
+        ><div class="link sass"><i class="fa-brands fa-sass"></i></div
+      ></a>
+    </div>
+    <footer>
+      <h3 id="quote"></h3>
+    </footer>
+  </body>
+  <script src="script.js"></script>
+</html>
